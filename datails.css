@@ -1,0 +1,593 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    font-family: inter;
+    background-color: #49BBBD;
+}
+
+/* header section */
+.wrapper_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+}
+.header1 span{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+}
+
+/* menu section */
+.menu{
+    display: flex;
+}
+.menu >ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* accessibility section */
+.access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accessibility-btn {
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 50px;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Chevron arrow created with borders */
+.chevron {
+  width: 10px;
+  height: 10px;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  transform: rotate(45deg);
+  margin-top: 3px;
+}
+
+/* wrapper text */
+.wrppertext {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.hero .emoji {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+/* SUBTEXT */
+.subtext {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  max-width: 750px;
+  color: #e7f8f8;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* SAFE LEARNING SECTION */
+.safe-learning {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.safe-learning-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 1000px;
+}
+
+.safe-learning-content h3 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.safe-learning-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* GRADE LEVEL TITLE */
+.grade-level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grade-level h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+/* box_parents section */
+.box_parent{
+  display: flex;
+  flex-direction: column;
+}
+/* box section */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+.card {
+  background: #CCCCCC;
+  width: 460px;
+  height: 294px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.icon.star {
+  color: #4aa3f5;
+}
+
+.icon.heart {
+  color: #e44b6b;
+}
+
+.card h2 {
+  margin-top: 3rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.card input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card a {
+  background: #777;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* box2 section */
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+.card {
+  background: #CCCCCC;
+  width: 460px;
+  height: 294px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.icon.star {
+  color: #4aa3f5;
+}
+
+.icon.heart {
+  color: #e44b6b;
+}
+
+.card h2 {
+  margin-top: 3rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.card input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card a {
+  background: #777;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* box3 section */
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+.card {
+  background: #CCCCCC;
+  width: 460px;
+  height: 294px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.icon.star {
+  color: #4aa3f5;
+}
+
+.icon.heart {
+  color: #e44b6b;
+}
+
+.card h2 {
+  margin-top: 3rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.card input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card a {
+  background: #777;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* footter section */
+.fotter{
+    background-color: #252641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.lastmsg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.lastmsg span{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+}
+.lastmsg img{
+    display: flex;
+    flex-direction: row;
+}
+.lastmsg h3{
+    display: flex;
+    width: 140px;
+    margin-left: 2rem;
+    color: white;
+}
+.sub h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: lighter;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.email ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.email .your input{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: #252641;
+    color: white;
+    display: flex;
+}
+.email-input {
+  display: flex;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 300px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+.email .subs button {
+  display: flex;
+  background: #49BBBD;
+  border: none;
+  padding: 9px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 22px;
+}
+.lastmsg1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.lastmsg1 ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0; 
+  font-size: 22px;
+  color: white;
+}
+.lastmsg1 li h5{
+  font-weight: lighter;
+}
+
+/* media query section */
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  /* HEADER */
+  .wrapper_header {
+    flex-direction: row;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .header1 span {
+    font-size: 24px;
+ 
+  }
+  .header1 img{
+    width: 30%;
+  }
+
+  /* MENU */
+  .menu > ul {
+    display: none;
+  }
+    /* ACCESS BUTTON */
+  .accessibility-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  /* HERO SECTION */
+  .hero h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .subtext {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  /* SAFE LEARNING SECTION */
+  .safe-learning {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .safe-learning-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* GRADE LEVEL TITLE */
+  .grade-level {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .grade-level h2 {
+    font-size: 28px;
+  }
+
+  /* BOX SECTIONS */
+  .box,
+  .box2,
+  .box3 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .card {
+    width: 90%;
+    height: auto;
+  }
+  .card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card input {
+    width: 80%;
+  }
+
+  /* FOOTER */
+  .fotter {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .lastmsg {
+    flex-direction: row;
+    text-align: center;
+  }
+  .lastmsg span {
+    /* right: 0; */
+    font-size: 20px;
+  }
+  .lastmsg h3 {
+    /* margin-left: 0; */
+    margin-top: 10px;
+  }
+
+  .email {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .email-input {
+    width: 80%;
+  }
+  .email .subs button {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .lastmsg1 ul {
+    flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
+    text-align: center;
+  }
+}

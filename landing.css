@@ -1,0 +1,376 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    font-family: inter;
+    background-color: #49BBBD;
+}
+
+/* header section */
+.wrapper_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+}
+.header1 span{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+}
+
+/* menu section */
+.menu{
+    display: flex;
+}
+.menu >ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+/* login section */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.login .log button{
+    padding: 20px 50px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+
+}
+.login .sign >button{
+    padding: 20px 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.46);
+    color: white;
+    width: 180px;
+}
+/* banner section */
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+.text10 h1{
+    width: 85%;
+    font-size: 48px;
+    display: flex;
+    margin: 0;
+    color: white;
+}
+.text20 p{
+    width: 65%;
+    font-size: 24px;
+    display: flex;
+    color: white;
+    margin-top: 3rem;
+}
+.banner_button{
+    display: flex;
+}
+.banner_button a{
+    background-color: rgba(255, 255, 255, 0.367);
+    padding: 20px;  
+    border: 0;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+.banner_section{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+.img1 img{
+    width: 613px;
+    height: 678px;
+    margin-right: 3rem;
+}
+
+/* footer section */
+.fotter{
+    background-color: #252641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.lastmsg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.lastmsg span{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+}
+.lastmsg img{
+    display: flex;
+    flex-direction: row;
+}
+.lastmsg h3{
+    display: flex;
+    width: 140px;
+    margin-left: 2rem;
+    color: white;
+}
+.sub h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: lighter;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.email ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.email .your input{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: #252641;
+    color: white;
+    display: flex;
+}
+.email-input {
+  display: flex;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 300px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+.email .subs button {
+  display: flex;
+  background: #49BBBD;
+  border: none;
+  padding: 9px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 22px;
+}
+.lastmsg1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.lastmsg1 ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0; 
+  font-size: 22px;
+  color: white;
+}
+.lastmsg1 li h5{
+  font-weight: lighter;
+}
+
+
+
+/* reponsive section */
+@media screen and (max-width: 768px) {
+
+  /* BODY */
+  body {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  .wrapper_header {
+    flex-direction: row;
+    padding: 15px 20px;
+    gap: 10px;
+    text-align: center;
+  }
+
+ .header1 span {
+    font-size: 24px;
+
+  }
+  .header1 img{
+    width: 30%;
+  }
+  /* MENU */
+  .menu > ul {
+    display: none;
+  }
+
+  /* LOGIN SECTION */
+  .login ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .login .log button,
+  .login .sign button {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 25px;
+  }
+
+  /* BANNER SECTION */
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 10px;
+  }
+
+  .banner_section {
+    margin-left: 0;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+
+  .text10 h1 {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text20 p {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .banner_button a {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-top: 1.5rem;
+  }
+
+  .img1 img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+  .fotter {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .lastmsg {
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .lastmsg span {
+    font-size: 20px;
+    /* right: 0; */
+  }
+
+  .lastmsg h3 {
+    /* margin-left: 0; */
+    margin-top: 5px;
+  }
+
+  .email {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .email-input {
+    width: 80%;
+  }
+
+  .email .subs button {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .lastmsg1 ul {
+    flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+
+/* @media screen and (max-width: 1400px) {
+  .menu ul{ 
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header1 span{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login .log button{
+    font-size: 15px;
+    padding: 20px 30px;
+  }
+  .login .sign button{
+    font-size: 15px;
+    padding: 20px 30px;
+    width: 120px;
+  }
+} */
