@@ -216,11 +216,12 @@ body {
 
   .user,
   .user2{
-    
+    margin: 0;
     flex-direction: row;
     width: 100%;
     margin-top: 20px;
     align-items: center;
+    justify-content: center;
   }
   .invi{
     display: flex;
@@ -263,6 +264,7 @@ body {
 
   .lastbut {
     padding: 20px;
+    margin: 0;
   }
 
   .lastbut > a {
